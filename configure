@@ -24478,7 +24478,7 @@ $as_echo "$ac_success" >&6; }
     done
   done
   LIBS=$ac_save_LIBS
-
+ac_success=yes
   if test $ac_success = yes ; then
     IPOPTLIB_LFLAGS="$spral_lflags $IPOPTLIB_LFLAGS"
 
